@@ -16,10 +16,10 @@ function setup(){
     world = engine.world;
 
 
-    ground = new Ground(600,height,1200,20);
-    platform = new Ground(150, 305, 300, 170);
+    ground = new Ground(600,height,1199,20);
+    platform = new Ground(150, 301, 300, 170);
 
-    box1 = new Box(700,320,70,70);
+    box1 = new Box(700,320,70,69);
     box2 = new Box(920,320,70,70);
     pig1 = new Pig(810, 350);
     log1 = new Log(810,260,300, PI/2);
